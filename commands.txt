@@ -5,6 +5,10 @@ git config --global core.editor "gedit -s"
 LIST ALL CONFIGS :: git config [--global] --list
 LIST ALL CONFIGS IN EDITOR :: git config [--global] -e
 
+NOTE :: ALL THE COMMANDS ARE TO BE EXECUTED FROM THE CURRENT WORKING PROJECT ONLY(i.e. if working on project "GoLangLearning", the commands are to be executed from "GoLangLearning" folder)
+
+INITIALIZE A GIT REPOSITORY FOR ANY EXISTING PROJECT :: git init
+
 CHECK GIT STATUS :: git status
 
 MOVING FILE TO GIT STAGING AREA :: git add <filename>
