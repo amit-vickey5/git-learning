@@ -16,3 +16,5 @@ MOVE ALL FILES IN CURRENT FOLDER TO STAGING AREA :: git add .
 
 COMMIT(INLINE MESSAGE) :: git commit -m "commit message"
 MUTI-LINE COMMIT MESSAGE :: git commit
+
+COMMITS HISTORY :: git log / git show
