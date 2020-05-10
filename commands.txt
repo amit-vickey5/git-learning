@@ -43,3 +43,5 @@ DIFFERENCE BETWEEN COMMITS(using terminal) ::
 
 DIFFERENCE BETWEEN COMMITS(using configured tool) ::
 	git difftool <COMMIT1> <COMMIT2>
+
+CURRENT BRANCH :: git branch
