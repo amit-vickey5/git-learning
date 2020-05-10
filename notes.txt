@@ -1,0 +1,14 @@
+GIT ::
+> Distributed version control system
+> Advantages/Features ::
+		a. Awesome scale
+		b. Local operations(most of the commands are for local, only few of them require network connections)
+		c. Open source
+		d. Large community
+		e. Wide adaption and integration to other tools(like text editors)
+
+> Repository ::
+	Collection of files(or folders) managed by Git
+	Local repository :: ".git"
+
+> GitHub :: Git Hosting Platform
