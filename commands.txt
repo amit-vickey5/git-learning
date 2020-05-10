@@ -18,6 +18,7 @@ COMMIT(INLINE MESSAGE) :: git commit -m "commit message"
 MUTI-LINE COMMIT MESSAGE :: git commit
 
 COMMITS HISTORY :: git log / git show
+SIMPLIFIED COMMITS HISTORY :: git log --oneline --graph --decorate --all
 
 LIST FILES TRACKED BY GIT :: git ls-files
 
