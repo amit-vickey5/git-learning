@@ -54,3 +54,5 @@ TO MERGE FEATURE-BRANCH TO MASTER(OR PARENT BRANCH) ::
 	1. Switch to parent branch(git checkout <parent-branch>) i.e switch to the branch to which the changes are to be made
 	2. Merge the changes(git merge <branch-name>)
 	THIS WILL MERGE THE CHANGES FROM <branch-name> TO THE CURRENT WORKING BRANCH
+
+DELETE A BRANCH :: git branch -d <branch-name>
