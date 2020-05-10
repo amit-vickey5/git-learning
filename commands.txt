@@ -45,3 +45,5 @@ DIFFERENCE BETWEEN COMMITS(using configured tool) ::
 	git difftool <COMMIT1> <COMMIT2>
 
 CURRENT BRANCH :: git branch
+
+CREATE A NEW BRANCH AND SWITCH TO IT :: git checkout -b <branch-name>
