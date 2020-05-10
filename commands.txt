@@ -1,0 +1,12 @@
+git config --global user.name "Amit"
+git config --global user.email "amit.vickey5@gmail.com"
+git config --global core.editor "gedit -s"
+
+LIST ALL CONFIGS :: git config [--global] --list
+LIST ALL CONFIGS IN EDITOR :: git config [--global] -e
+
+CHECK GIT STATUS :: git status
+
+MOVING FILE TO GIT STAGING AREA :: git add <filename>
+
+COMMIT(INLINE MESSAGE) :: git commit -m "commit message"
