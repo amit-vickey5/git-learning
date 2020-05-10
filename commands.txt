@@ -36,3 +36,10 @@ RENAMING A FILE :: git mv <old-file> <new-file>
 
 DELETING A FILE :: git rm <file-name>
 	this will delete the file in local, and will move the change to staging area. still commit needs to happen to respresent the same in repository
+
+DIFFERENCE BETWEEN COMMITS(using terminal) ::
+	git diff <COMMIT1> <COMMIT2>
+
+
+DIFFERENCE BETWEEN COMMITS(using configured tool) ::
+	git difftool <COMMIT1> <COMMIT2>
