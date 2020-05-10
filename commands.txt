@@ -30,3 +30,9 @@ RESET FILE(DISCARD ALL CHANGES AND BRING BACK LAST COMMITTED STATE) :: git check
 
 ALIAS :: git config --global alias.<COMMAND-NAME> "<ORIGINAL-COMMAND-WITHOUT-GIT>"
 	e.g. git config --global alias.history "log --oneline --graph --decorate --all"
+
+RENAMING A FILE :: git mv <old-file> <new-file>
+	this will rename the file in local, and will move the change to staging area. still commit needs to happen to respresent the same in repository
+
+DELETING A FILE :: git rm <file-name>
+	this will delete the file in local, and will move the change to staging area. still commit needs to happen to respresent the same in repository
