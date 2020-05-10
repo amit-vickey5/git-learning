@@ -24,3 +24,5 @@ LIST FILES TRACKED BY GIT :: git ls-files
 MOVE UN-COMMITED FILES TO STAGING AND COMMIT :: git commit -am "Commit Message"
 
 UN-STAGE FILES :: git reset HEAD <filename>
+
+RESET FILE(DISCARD ALL CHANGES AND BRING BACK LAST COMMITTED STATE) :: git checkout -- <filename>
