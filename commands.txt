@@ -97,5 +97,6 @@ MERGE THE FETCHED CHANGES :: git pull
 PUSH :: git push
 	pushes the current working branch
 
+CHANGE REMOTE URL :: git remote set-url origin <URL>
 
 
