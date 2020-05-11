@@ -82,6 +82,11 @@ PUSH CHANGES TO GITHUB :: git push -u origin master --tags
 	master : name of the branch to be pushed
 	--tags : send all the tags as well
 
+SSH :: 
+	1. create .ssh folder inside /home/<username>
+	2. generate ssh key :: ssh-keygen -t rsa -C "<email>"
+
+
 
 
 
