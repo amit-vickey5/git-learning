@@ -73,6 +73,8 @@ TO APPLY STASH CHANGES :: git stash pop
 // THIS LINE WILL BE STASHED
 
 
+LINK GITHUB REPO TO LOCAL GIT REPO :: git remote add origin <remote-repo-url>
+CHECK THE LINKED REPOTE REPO :: git remote -v
 
 
 
