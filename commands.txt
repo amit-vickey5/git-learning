@@ -94,8 +94,11 @@ CLONE REPOSITORY :: git clone <URL>
 FETCH FROM GITHUB :: git fetch
 MERGE THE FETCHED CHANGES :: git pull
 
-PUSH :: git push -u origin <branch>
+PUSH :: git push -u origin <branch> :: to push a new branch and set a tracking relationship between the local and remote branch
+	git push :: to push the current working branch
+
 
 CHANGE REMOTE URL :: git remote set-url origin <URL>
+
 
 
