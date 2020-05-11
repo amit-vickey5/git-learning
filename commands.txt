@@ -87,6 +87,10 @@ SSH ::
 	2. generate ssh key :: ssh-keygen -t rsa -C "<email>"
 
 
+CLONE REPOSITORY :: git clone <URL>
+	by default, git will create a new folder with name same as the repository name and clone the repository inside it
+	to specify the folder inside which the clone needs to happed :: git clone <URL> <folder-name>
+
 
 
 
