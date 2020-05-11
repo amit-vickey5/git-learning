@@ -65,3 +65,8 @@ DELETE A TAG :: git tag -d <tagname>
 LIST ALL TAGS :: git tag --list
 CREATE ANNOTATED TAG(A MORE DETAILED TAG) :: git tag -a <tagname> -m "Some Message"
 SHOW DETAILS OF A TAG :: git show <tagname>
+
+STASHING CURRENT CHANGES :: git stash
+LIST ALL THE STASHES :: git stash list
+TO APPLY STASH CHANGES :: git stash pop
+	this will apply the stash changes and delete the stash as well
