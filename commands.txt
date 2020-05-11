@@ -70,3 +70,4 @@ STASHING CURRENT CHANGES :: git stash
 LIST ALL THE STASHES :: git stash list
 TO APPLY STASH CHANGES :: git stash pop
 	this will apply the stash changes and delete the stash as well
+// THIS LINE WILL BE STASHED
