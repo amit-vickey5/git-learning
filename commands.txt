@@ -91,6 +91,11 @@ CLONE REPOSITORY :: git clone <URL>
 	by default, git will create a new folder with name same as the repository name and clone the repository inside it
 	to specify the folder inside which the clone needs to happed :: git clone <URL> <folder-name>
 
+FETCH FROM GITHUB :: git fetch
+MERGE THE FETCHED CHANGES :: git pull
+
+PUSH :: git push
+	pushes the current working branch
 
 
 
