@@ -59,3 +59,9 @@ DELETE A BRANCH :: git branch -d <branch-name>
 
 // THIS LINE IS TO GENERATE CONFLICTS - <conflict-branch>
 // THIS LINE IS TO GENERATE CONFLICTS - <master>
+
+CREATE A LIGHTWEIGHT TAG :: git tag <tagname>
+DELETE A TAG :: git tag -d <tagname>
+LIST ALL TAGS :: git tag --list
+CREATE ANNOTATED TAG(A MORE DETAILED TAG) :: git tag -a <tagname> -m "Some Message"
+SHOW DETAILS OF A TAG :: git show <tagname>
