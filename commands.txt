@@ -76,6 +76,12 @@ TO APPLY STASH CHANGES :: git stash pop
 LINK GITHUB REPO TO LOCAL GIT REPO :: git remote add origin <remote-repo-url>
 CHECK THE LINKED REPOTE REPO :: git remote -v
 
+PUSH CHANGES TO GITHUB :: git push -u origin master --tags
+	-u : sets a tracking-branch relationship between master branch on local repo and master branch on remote repo
+	origin : name of the remote repo to which the changes will be pushed
+	master : name of the branch to be pushed
+	--tags : send all the tags as well
+
 
 
 
